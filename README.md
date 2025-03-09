@@ -8,7 +8,9 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
 * **Admin/Analyst Login:**
     * Open your web browser and go to `http://localhost/osTicket/scp/login.php`.
     * Enter the username and password you set up during the installation.
-    * **Screenshot Hint:** Once logged in to the admin panel, take a screenshot of the main dashboard. This confirms successful login.
+   ![image](https://github.com/user-attachments/assets/7e02c746-1678-4eaa-a794-4242a9e594fb)
+    ![image](https://github.com/user-attachments/assets/e1b0976b-b820-4939-9d42-223cdbfcdfa9)
+
 * **End User Portal:**
     * This is where your customers will go to create tickets. The address is `http://localhost/osTicket`.
 * **Understanding the Panels:**
