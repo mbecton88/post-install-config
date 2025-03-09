@@ -13,19 +13,23 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
 
 * **End User Portal:**
     * This is where your customers will go to create tickets. The address is `http://localhost/osTicket`.
+   ![image](https://github.com/user-attachments/assets/f1d65674-5322-4ad8-8691-fe54b678e3ef)
 * **Understanding the Panels:**
     * The **Admin Panel** is for setting up osTicket.
-    * The **Agent Panel** is for managing tickets and users.
+      ![image](https://github.com/user-attachments/assets/02d17b51-f61d-4443-a88a-2c13d3cda141)
+    * The **Agent Panel** is for managing tickets and users.(This is the screenshot from earlier after you first logged into the admin page).
 
 **2. Configuring Roles (Setting Permissions)**
 
 * **Why?** Roles let you control what agents can do.
 * **Admin Panel -> Agents -> Roles:**
+  ![image](https://github.com/user-attachments/assets/2276dd2b-9d16-4c89-a2ca-78030becfddb)
     * Click "Add New Role."
     * Name: `Supreme Admin` (Or something like "IT Manager").
+  ![image](https://github.com/user-attachments/assets/3af0972c-9fae-4ada-8ab7-fd38ebfb4d0e)
     * Check all the boxes to give this role full access.
+  ![image](https://github.com/user-attachments/assets/708b8944-beae-41b5-9c1f-8acd777ad3a3)
     * **Explanation:** This role will have all the permissions to do anything inside of osTicket.
-    * **Screenshot Hint:** Take a screenshot of the "Add New Role" page with the permissions selected.
 * **Useful Addition:** Create another role called "Help Desk Agent" with limited permissions, only allowing them to work tickets.
 
 **3. Configuring Departments (Organizing Tickets)**
@@ -33,11 +37,11 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
 * **Why?** Departments help route tickets to the right people.
 * **Admin Panel -> Agents -> Departments:**
     * Click "Add New Department."
+  ![image](https://github.com/user-attachments/assets/503ee2c3-cce2-40bf-a2cb-dbf18517e940)
     * Name: `SysAdmins` (Or "IT Department").
     * Set the department's email and other settings.
     * **Explanation:** Departments help keep tickets organized. For example, you might have a "Help Desk" department and a "Network" department.
-    * **Screenshot Hint:** Take a screenshot after you have created a department.
-* **Useful Addition:** Create a second department called "Help Desk".
+    
 
 **4. Configuring Teams (Working Together)**
 
@@ -47,17 +51,16 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
     * Name: `Online Banking` (Or "Project Support").
     * Add agents from different departments to the team.
     * **Explanation:** Teams are useful when you need people from different departments to work on the same issue.
-    * **Screenshot Hint:** Take a screenshot of the team after you have added agents to it.
+   ![image](https://github.com/user-attachments/assets/94021418-a558-4b3a-a873-911075b419d3)
+
 
 **5. Allowing Ticket Creation (User Access)**
 
 * **Why?** We need to control who can create tickets.
 * **Admin Panel -> Settings -> User Settings:**
     * Uncheck "Unregistered users can create tickets."
-    * Check "Require registration and login to create tickets."
-    * **Explanation:** This ensures that only registered users can create tickets.
-    * **Screenshot Hint:** Take a screenshot of the User Settings page.
-
+    ![image](https://github.com/user-attachments/assets/121f82c4-2461-45e0-a95b-fff0ccc014ca)
+    * **Explanation:** Allows users that are not registered to submit tickets
 **6. Configuring Agents (Adding Staff)**
 
 * **Why?** Agents are the people who will work on tickets.
