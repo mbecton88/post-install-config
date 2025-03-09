@@ -60,7 +60,9 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
 * **Admin Panel -> Settings -> User Settings:**
     * Uncheck "Unregistered users can create tickets."
     ![image](https://github.com/user-attachments/assets/121f82c4-2461-45e0-a95b-fff0ccc014ca)
-    * **Explanation:** Allows users that are not registered to submit tickets
+    * **Explanation:** Allows users that are not registered to submit tickets.
+ 
+      
 **6. Configuring Agents (Adding Staff)**
 
 * **Why?** Agents are the people who will work on tickets.
@@ -69,8 +71,9 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
     * Example:
         * Jane (Department: `SysAdmins`)
         * John (Department: `Help Desk`)
+  ![image](https://github.com/user-attachments/assets/c983298c-f41f-4d3e-badf-e1a52656abf9)
     * **Explanation:** Agents are the ones who respond to and resolve tickets.
-    * **Screenshot Hint:** Take a screenshot of the agent list after adding new agents.
+    
 
 **7. Configuring Users (Adding Customers)**
 
@@ -80,8 +83,9 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
     * Example:
         * Karen
         * Ken
+     ![image](https://github.com/user-attachments/assets/78337e23-25a2-4237-9ea1-3dc91e4def57)
     * **Explanation:** Users are your customers or employees who need help.
-    * **Screenshot Hint:** Take a screenshot of the user list after adding new users.
+    
 
 **8. Configuring SLAs (Setting Time Limits)**
 
@@ -92,8 +96,10 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
         * Sev-A (Grace Period: 1 hour, Schedule: 24/7)
         * Sev-B (Grace Period: 4 hours, Schedule: 24/7)
         * Sev-C (Grace Period: 8 hours, Business Hours)
+          ![image](https://github.com/user-attachments/assets/7fcc8b94-6742-4457-8cca-d34fa8dddc63)
+          ![image](https://github.com/user-attachments/assets/5f5db78c-5740-4b9d-8d49-40f6d11e9f17)
     * **Explanation:** SLAs help ensure that tickets are handled in a timely manner.
-    * **Screenshot Hint:** Take a screenshot of the created SLA.
+   
 
 **9. Configuring Help Topics (Categorizing Tickets)**
 
@@ -105,13 +111,6 @@ Now that osTicket is installed, we'll set it up to work for your organization. W
         * Personal Computer Issues
         * Password Reset
     * **Explanation:** Help topics make it easier to route tickets to the right department.
-    * **Screenshot Hint:** Take a screenshot of the Help Topics list.
-* **Useful Addition:** Create a help topic called "New Employee Onboarding".
+    
 
-**10. Knowledge base (Self Help)**
 
-* **Why?** A knowledge base lets users find answers to problems themselves.
-* **Admin Panel -> Knowledgebase -> Articles:**
-    * Click "Add New Article".
-    * Create an article that will help users solve a common problem.
-    * **Explanation:** This allows users to find solutions without creating a ticket.
